@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BojLeave.Api.props" />
+</Project>

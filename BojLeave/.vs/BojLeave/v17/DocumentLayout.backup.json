@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\_github\\pongsakons\\BojLeave\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\bojleave.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\bojleave.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\bojleave.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\bojleave.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A43497-0B3B-4AE0-9EE5-84E98F429DFA}|BojLeave.Application\\BojLeave.Application.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.application\\auth\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A43497-0B3B-4AE0-9EE5-84E98F429DFA}|BojLeave.Application\\BojLeave.Application.csproj|solutionrelative:bojleave.application\\auth\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\bojleave.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\bojleave.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\middleware\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\middleware\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\middleware\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\middleware\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\middleware\\corsserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\middleware\\corsserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|e:\\_github\\pongsakons\\bojleave\\bojleave.api\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22436C97-C6B9-4960-AE43-8392ED73ABD9}|BojLeave.Api\\BojLeave.Api.csproj|solutionrelative:bojleave.api\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAFIHAAAAAAAAAADgv2AHAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-25T18:06:03.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BojLeave.Api",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\BojLeave.Api.csproj",
+              "RelativeDocumentMoniker": "BojLeave.Api\\BojLeave.Api.csproj",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\BojLeave.Api.csproj",
+              "RelativeToolTip": "BojLeave.Api\\BojLeave.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-25T18:05:49.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BojLeave.Api",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\BojLeave.Api.csproj",
+              "RelativeDocumentMoniker": "BojLeave.Api\\BojLeave.Api.csproj",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\BojLeave.Api.csproj",
+              "RelativeToolTip": "BojLeave.Api\\BojLeave.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-25T17:59:38.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Application\\Auth\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "BojLeave.Application\\Auth\\JwtTokenGenerator.cs",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Application\\Auth\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "BojLeave.Application\\Auth\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:58:48.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "BojLeave.Api\\Services\\LoginService.cs",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Services\\LoginService.cs",
+              "RelativeToolTip": "BojLeave.Api\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:58:45.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BojLeave.Api.http",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\BojLeave.Api.http",
+              "RelativeDocumentMoniker": "BojLeave.Api\\BojLeave.Api.http",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\BojLeave.Api.http",
+              "RelativeToolTip": "BojLeave.Api\\BojLeave.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-25T17:53:29.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "BojLeave.Api\\Dockerfile",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Dockerfile",
+              "RelativeToolTip": "BojLeave.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-25T17:53:25.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Program.cs",
+              "RelativeDocumentMoniker": "BojLeave.Api\\Program.cs",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Program.cs",
+              "RelativeToolTip": "BojLeave.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:50:53.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Middleware\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "BojLeave.Api\\Middleware\\ServiceCollectionExtensions.cs",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Middleware\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "BojLeave.Api\\Middleware\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:49:13.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "BojLeave.Api\\Middleware\\RequestLoggingMiddleware.cs",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "BojLeave.Api\\Middleware\\RequestLoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:49:00.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExceptionMiddlewareExtensions.cs",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Middleware\\ExceptionMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "BojLeave.Api\\Middleware\\ExceptionMiddlewareExtensions.cs",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Middleware\\ExceptionMiddlewareExtensions.cs",
+              "RelativeToolTip": "BojLeave.Api\\Middleware\\ExceptionMiddlewareExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:48:53.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "BojLeave.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "BojLeave.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:48:43.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CorsServiceExtensions.cs",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Middleware\\CorsServiceExtensions.cs",
+              "RelativeDocumentMoniker": "BojLeave.Api\\Middleware\\CorsServiceExtensions.cs",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Middleware\\CorsServiceExtensions.cs",
+              "RelativeToolTip": "BojLeave.Api\\Middleware\\CorsServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:48:40.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LeaveController.cs",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Controllers\\LeaveController.cs",
+              "RelativeDocumentMoniker": "BojLeave.Api\\Controllers\\LeaveController.cs",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Controllers\\LeaveController.cs",
+              "RelativeToolTip": "BojLeave.Api\\Controllers\\LeaveController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:47:28.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BojLeave.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\_github\\pongsakons\\BojLeave\\BojLeave.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BojLeave.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T17:47:25.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
