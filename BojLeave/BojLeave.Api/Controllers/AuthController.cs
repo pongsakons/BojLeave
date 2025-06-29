@@ -23,12 +23,12 @@ namespace BojLeave.Api.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            if (string.IsNullOrEmpty(request.Username) || string.IsNullOrEmpty(request.Password))
-                return Unauthorized();
-            if (!_loginService.ValidateUser(request.Username, request.Password))
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            if (!_loginService.ValidateUser(request.Username!, request.Password!))
                 return Unauthorized();
 
-            var user = _userRepository.GetByUsername(request.Username);
+            var user = _userRepository.GetByUsername(request.Username!);
             if (user == null)
                 return Unauthorized();
 
