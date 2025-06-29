@@ -31,7 +31,7 @@ namespace BojLeave.Api.Middleware
             services.AddDbContext<BojLeave.Infrastructure.BojLeaveDbContext>(options =>
                 options.UseSqlServer("YourConnectionStringHere"));
             // Register SQL Server repository
-            services.AddScoped<BojLeave.Domain.Repositories.IUserRepository, BojLeave.Infrastructure.Repositories.SqlUserRepository>();
+            services.AddScoped<BojLeave.Domain.Repositories.IUserRepository, BojLeave.Infrastructure.Repositories.UserRepository>();
             return services;
         }
 

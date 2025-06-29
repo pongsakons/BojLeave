@@ -1,14 +1,13 @@
-using BojLeave.Domain.Repositories;
 using BojLeave.Domain.Entities;
+using BojLeave.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
 
 namespace BojLeave.Infrastructure.Repositories
 {
-    public class SqlUserRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly BojLeaveDbContext _db;
-        public SqlUserRepository(BojLeaveDbContext db)
+        public UserRepository(BojLeaveDbContext db)
         {
             _db = db;
         }
