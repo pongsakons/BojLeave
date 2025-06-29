@@ -1,4 +1,5 @@
 using BojLeave.Api.Middleware;
+using Microsoft.EntityFrameworkCore;
 
 namespace BojLeave.Api
 {
@@ -16,6 +17,8 @@ namespace BojLeave.Api
             builder.Services.AddCustomCors();
             builder.Services.AddCustomServices();
             builder.Services.AddBojLeaveCoreServices();
+            builder.Services.AddDbContext<BojLeave.Infrastructure.BojLeaveDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
