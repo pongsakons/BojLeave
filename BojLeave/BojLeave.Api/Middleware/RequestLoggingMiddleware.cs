@@ -1,7 +1,3 @@
-using Microsoft.AspNetCore.Http;
-using System;
-using System.Threading.Tasks;
-
 namespace BojLeave.Api.Middleware
 {
     public class RequestLoggingMiddleware

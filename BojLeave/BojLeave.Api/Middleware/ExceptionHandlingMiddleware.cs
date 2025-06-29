@@ -1,7 +1,4 @@
-using Microsoft.AspNetCore.Http;
-using System;
 using System.Net;
-using System.Threading.Tasks;
 
 namespace BojLeave.Api.Middleware
 {
