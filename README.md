@@ -1,6 +1,4 @@
-# BojLeave
-Leave tools
-<pre><code>graph TD
+graph TD
     A[API Layer<br/>(BojLeave.Api)] --> B[Application Layer<br/>(BojLeave.Application)]
     B --> C[Domain Layer<br/>(BojLeave.Domain)]
     A --> D[Infrastructure Layer<br/>(BojLeave.Infrastructure)]
@@ -34,4 +32,4 @@ Leave tools
     A1 --> B1
     B1 --> C2
     D2 --> C2
-    D1 --> C1</code></pre>
+    D1 --> C1
