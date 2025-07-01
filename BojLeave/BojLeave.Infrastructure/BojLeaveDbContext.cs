@@ -25,6 +25,7 @@ namespace BojLeave.Infrastructure
                 Id = 1,
                 Username = "admin",
                 DisplayName = "Administrator",
+                Password = "admin", // ควรเปลี่ยนเป็น hash จริงใน production
                 Roles = new List<string> { "Admin" }
             });
 

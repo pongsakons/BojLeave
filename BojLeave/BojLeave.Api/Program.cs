@@ -1,5 +1,7 @@
 using BojLeave.Api.Middleware;
 using Microsoft.EntityFrameworkCore;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 
 namespace BojLeave.Api
 {
@@ -19,6 +21,9 @@ namespace BojLeave.Api
             builder.Services.AddBojLeaveCoreServices();
             builder.Services.AddDbContext<BojLeave.Infrastructure.BojLeaveDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddValidatorsFromAssemblyContaining<BojLeave.Domain.Validators.UserValidator>();
+            builder.Services.AddValidatorsFromAssemblyContaining<BojLeave.Application.Validators.LoginRequestValidator>();
+            builder.Services.AddValidatorsFromAssemblyContaining<BojLeave.Application.Validators.RefreshTokenRequestValidator>();
 
             var app = builder.Build();
 

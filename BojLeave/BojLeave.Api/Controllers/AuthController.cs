@@ -1,8 +1,6 @@
 using BojLeave.Application;
+using BojLeave.Application.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using BojLeave.Api.Models;
 
 namespace BojLeave.Api.Controllers
 {

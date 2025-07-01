@@ -14,7 +14,7 @@ namespace BojLeave.Infrastructure.Repositories
 
         public User? GetByUsername(string username)
         {
-            return _db.Users.Include(u => u.Roles).FirstOrDefault(u => u.Username == username);
+            return _db.Users.FirstOrDefault(u => u.Username == username);
         }
     }
 }

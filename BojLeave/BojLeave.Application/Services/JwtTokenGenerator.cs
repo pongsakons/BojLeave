@@ -28,6 +28,7 @@ namespace BojLeave.Application
             {
                 claimsList.Add(new Claim(ClaimTypes.Name, username));
             }
+
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_secretKey));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
