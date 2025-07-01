@@ -1,9 +1,7 @@
-using BojLeave.Domain.Repositories;
 using BojLeave.Domain.Entities;
-using System.Collections.Generic;
-using System.Linq;
+using BojLeave.Domain.Repositories;
 
-namespace BojLeave.Application.Auth
+namespace BojLeave.Application
 {
     public class InMemoryUserRepository : IUserRepository
     {

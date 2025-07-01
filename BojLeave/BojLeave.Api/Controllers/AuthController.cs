@@ -1,8 +1,6 @@
-using BojLeave.Application.Auth;
+using BojLeave.Application;
+using BojLeave.Application.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using BojLeave.Api.Models;
 
 namespace BojLeave.Api.Controllers
 {
@@ -23,20 +21,11 @@ namespace BojLeave.Api.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            if (string.IsNullOrEmpty(request.Username) || string.IsNullOrEmpty(request.Password))
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            var (success, user, claims) = _loginService.Login(request.Username!, request.Password!);
+            if (!success || user == null || claims == null)
                 return Unauthorized();
-            if (!_loginService.ValidateUser(request.Username, request.Password))
-                return Unauthorized();
-
-            var user = _userRepository.GetByUsername(request.Username);
-            if (user == null)
-                return Unauthorized();
-
-            var claims = new[]
-            {
-                new Claim(ClaimTypes.Name, user.Username),
-                new Claim("displayName", user.DisplayName),
-            }.Concat(user.Roles.Select(r => new Claim(ClaimTypes.Role, r)));
 
             var token = _jwtTokenGenerator.GenerateToken(user.Username, claims);
             var userInfo = new
@@ -51,11 +40,9 @@ namespace BojLeave.Api.Controllers
         [HttpPost("refresh")]
         public IActionResult RefreshToken([FromBody] RefreshTokenRequest request)
         {
-            if (string.IsNullOrEmpty(request.Token))
-                return BadRequest("Token is required");
             try
             {
-                var newToken = _jwtTokenGenerator.RefreshToken(request.Token);
+                var newToken = _jwtTokenGenerator.RefreshToken(request.Token!);
                 return Ok(new { token = newToken });
             }
             catch (Exception ex)

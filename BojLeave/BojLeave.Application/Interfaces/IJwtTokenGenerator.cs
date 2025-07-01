@@ -1,6 +1,6 @@
 using System.Security.Claims;
 
-namespace BojLeave.Application.Auth
+namespace BojLeave.Application.Interfaces
 {
     public interface IJwtTokenGenerator
     {

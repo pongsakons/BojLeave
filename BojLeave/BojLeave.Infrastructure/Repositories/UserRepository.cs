@@ -1,21 +1,20 @@
-using BojLeave.Domain.Repositories;
 using BojLeave.Domain.Entities;
+using BojLeave.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
 
 namespace BojLeave.Infrastructure.Repositories
 {
-    public class SqlUserRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly BojLeaveDbContext _db;
-        public SqlUserRepository(BojLeaveDbContext db)
+        public UserRepository(BojLeaveDbContext db)
         {
             _db = db;
         }
 
         public User? GetByUsername(string username)
         {
-            return _db.Users.Include(u => u.Roles).FirstOrDefault(u => u.Username == username);
+            return _db.Users.FirstOrDefault(u => u.Username == username);
         }
     }
 }

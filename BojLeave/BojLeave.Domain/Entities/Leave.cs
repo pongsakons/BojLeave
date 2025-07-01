@@ -1,6 +1,6 @@
 namespace BojLeave.Domain.Entities
 {
-    public class User
+    public class Leave
     {
         public int Id { get; set; }
         public string Username { get; set; } = string.Empty;

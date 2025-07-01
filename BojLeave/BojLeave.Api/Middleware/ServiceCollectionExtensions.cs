@@ -25,13 +25,13 @@ namespace BojLeave.Api.Middleware
         public static IServiceCollection AddBojLeaveCoreServices(this IServiceCollection services)
         {
             // Register core application services here
-            services.AddScoped<BojLeave.Application.Auth.ILoginService, BojLeave.Application.Auth.LoginService>();
-            services.AddSingleton<BojLeave.Application.Auth.IJwtTokenGenerator, BojLeave.Application.Auth.JwtTokenGenerator>();
+            services.AddScoped<BojLeave.Application.ILoginService, BojLeave.Application.LoginService>();
+            services.AddSingleton<BojLeave.Application.IJwtTokenGenerator, BojLeave.Application.JwtTokenGenerator>();
             // Register SQL Server DbContext
             services.AddDbContext<BojLeave.Infrastructure.BojLeaveDbContext>(options =>
                 options.UseSqlServer("YourConnectionStringHere"));
             // Register SQL Server repository
-            services.AddScoped<BojLeave.Domain.Repositories.IUserRepository, BojLeave.Infrastructure.Repositories.SqlUserRepository>();
+            services.AddScoped<BojLeave.Domain.Repositories.IUserRepository, BojLeave.Infrastructure.Repositories.UserRepository>();
             return services;
         }
 

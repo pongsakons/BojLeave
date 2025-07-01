@@ -1,0 +1,10 @@
+BojLeave/.vs/
+.vs/
+BojLeave/BojLeave.Api/bin/
+BojLeave/BojLeave.Api/obj/
+BojLeave/BojLeave.Application/bin/
+BojLeave/BojLeave.Application/obj/
+BojLeave/BojLeave.Domain/obj/
+BojLeave/BojLeave.Infrastructure/bin/
+BojLeave/BojLeave.Infrastructure/obj/
+BojLeave/BojLeave.Domain/bin/
