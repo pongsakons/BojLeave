@@ -1,1 +1,3 @@
-<pre><code>```mermaid graph TD A[Start] --> B{Is it working?} B -- Yes --> C[Great!] B -- No --> D[Check settings] D --> B ```</code></pre>
+graph TD
+    A[เริ่มต้น] --> B[ดำเนินการ]
+    B --> C[จบ]
