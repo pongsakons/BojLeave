@@ -1,0 +1,19 @@
+name: OpenAI GPT Code Review
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Run GPT Code Review
+        uses: ostrichcyber/gpt-code-review-action@v1
+        with:
+          openai_api_key: ${{ secrets.OPENAI_API_KEY }}
+          gpt_model: gpt-3.5-turbo
+          github_token: ${{ secrets.GITHUB_TOKEN }}
