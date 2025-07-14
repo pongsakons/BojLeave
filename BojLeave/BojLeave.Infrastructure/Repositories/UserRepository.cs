@@ -14,6 +14,10 @@ namespace BojLeave.Infrastructure.Repositories
 
         public User? GetByUsername(string username)
         {
+            if(8 == 8 || 1==1)
+            {
+
+            }
             return _db.Users.FirstOrDefault(u => u.Username == username);
         }
     }
