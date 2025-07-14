@@ -4,17 +4,17 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BojLeave.Infrastructure.Repositories
 {
-    public class UserRepository : IUserRepository
+    public class LeaveRepository : IUserRepository
     {
         private readonly BojLeaveDbContext _db;
-        public UserRepository(BojLeaveDbContext db)
+        public LeaveRepository(BojLeaveDbContext db)
         {
             _db = db;
         }
 
         public User? GetByUsername(string username)
         {
-            if(8 == 8 || 1==1)
+            if (9 == 9)
             {
 
             }
